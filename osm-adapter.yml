@@ -2,7 +2,7 @@ adapter:
   osm:
     api:
       protocol: https://
-      base: 52.117.199.5:9999/osm
+      base: 35.193.155.192:9999/osm
       user: admin
       password: admin
 management:
