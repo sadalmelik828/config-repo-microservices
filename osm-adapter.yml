@@ -1,0 +1,18 @@
+adapter:
+  osm:
+    api:
+      protocol: https://
+      base: 52.117.199.5:9999/osm
+      user: admin
+      password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+server:
+  servlet:
+    context-path: /osm-adapter/
+logging:
+  file:
+    name: logs.log
