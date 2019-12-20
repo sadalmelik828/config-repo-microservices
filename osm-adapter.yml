@@ -16,3 +16,6 @@ server:
 logging:
   file:
     name: logs.log
+lombok:
+  anyConstructor:
+    addConstructorProperties: true
