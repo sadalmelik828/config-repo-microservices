@@ -1,0 +1,7 @@
+aai:
+  connection:
+    protocol: ${AAI_PROTOCOL:https://}
+    domain: ${AAI_DOMAIN:34.70.17.168}
+    port: ${AAI_PORT:8443}
+    user: ${AAI_USER:AAI}
+    passwd: ${AAI_PASSWD:AAI}
