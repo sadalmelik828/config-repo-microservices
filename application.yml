@@ -1,5 +1,5 @@
 eureka:
   client:
-    service-url:
-      defaultZone: ${EUREKA_URI:http://localhost:${EUREKA_PORT:8761}/eureka}
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://localhost:${EUREKA_PORT:8761}/eureka}
     register-with-eureka: true
