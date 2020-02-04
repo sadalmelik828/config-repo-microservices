@@ -3,13 +3,6 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_SERVER:http://localhost:${EUREKA_PORT:8761}/eureka}
     register-with-eureka: true
-osm:
-  connection:
-    protocol: ${OSM_PROTOCOL:https://}
-    domain: ${OSM_DOMAIN:35.193.155.192}
-    port: ${OSM_PORT:9999}
-    user: ${OSM_USER:admin}
-    passwd: ${OSM_PASSWD:admin}
-urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
+urlCamunda: ${URL_CAMUNDA:http://34.68.237.95:8080/engine-rest}
 aaiUrlServiceInstance: ${AAI_SI_URL:http://localhost:8092}
-osmUrlServiceInstance: ${OSM_SI_URL:http://localhost:8087}
+osmUrlServiceInstance: ${URL_OSM_NSLCM:http://34.69.239.30:8087}
