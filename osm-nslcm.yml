@@ -1,7 +1,3 @@
-osm:
-  connection:
-    protocol: ${OSM_PROTOCOL:https://}
-    domain: ${OSM_DOMAIN:35.193.155.192}
-    port: ${OSM_PORT:9999}
-    user: ${OSM_USER:admin}
-    passwd: ${OSM_PASSWD:admin}
+urlCamunda: ${URL_CAMUNDA:http://34.68.237.95:8080/engine-rest}
+osmUrlServiceInstance: ${URL_OSM_NSLCM:http://34.69.239.30:8087}
+topic: ${TOPIC:create-service-instance-osm}
