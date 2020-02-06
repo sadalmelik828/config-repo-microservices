@@ -10,3 +10,4 @@ aaiUrlGenerifVnf: ${AAI_GV_URL:http://localhost:8085}
 osmUrlVnfInstance: ${OSM_VNF_URL:http://localhost:8088}
 recipients: ${RECIPIENT:eduardo.tapia@telefonica.com}
 facebookMediatorAPI: ${FB_MD_API:http://104.154.198.186:80}
+woProjectId: ${WO_PROJ_ID:124554052096}
