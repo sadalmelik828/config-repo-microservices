@@ -5,6 +5,9 @@ eureka:
     register-with-eureka: true
     instance:
       preferIpAddress: true
+management:
+   security:
+      enabled: false
 urlCamunda: ${URL_CAMUNDA:http://34.68.237.95:8080/engine-rest}
 aaiUrlServiceInstance: ${AAI_SI_URL:http://localhost:8092}
 osmUrlServiceInstance: ${URL_OSM_NSLCM:http://34.69.239.30:8087}
