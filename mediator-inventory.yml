@@ -1,0 +1,3 @@
+aaiUrlServer: ${AAI_SRV_URL:https://34.66.238.222:8443}
+aaiUser: ${USER_AAI:AAI}
+aaiPassword: ${PASSWD_AAI:AAI}
