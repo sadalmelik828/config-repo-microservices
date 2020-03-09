@@ -1,3 +1,9 @@
 spring:
   application:
     name: mediator_decisor
+  kafka:
+    consumer:
+      group-id: md-service-ability
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:9092
+topic: singlemdserviceability
