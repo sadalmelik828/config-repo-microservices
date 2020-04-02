@@ -3,4 +3,4 @@ aaiUser: ${USER_AAI:AAI}
 aaiPassword: ${PASSWD_AAI:AAI}
 aaiPaths:
   service-instance: /business/customers/customer/{global-customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/{service-instance-id}
-  name: value
+  vrf:  /cloud-infrastructure/vrfs/vrf/{vrf-id}
