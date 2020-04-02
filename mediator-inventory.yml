@@ -1,6 +1,7 @@
 aaiUrlServer: ${AAI_SRV_URL:https://34.70.7.141:8443}
 aaiUser: ${USER_AAI:AAI}
 aaiPassword: ${PASSWD_AAI:AAI}
+aaiUrlBase: ${URL_BASE_AAI:/aai/v16}
 aaiPaths:
   service-instance: /business/customers/customer/{global-customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/{service-instance-id}
-  vrf:  /cloud-infrastructure/vrfs/vrf/{vrf-id}
+  vrf: /cloud-infrastructure/vrfs/vrf/{vrf-id}
