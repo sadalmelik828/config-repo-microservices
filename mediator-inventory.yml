@@ -5,3 +5,4 @@ aaiUrlBase: ${URL_BASE_AAI:/aai/v16}
 aaiPaths:
   service-instance: /business/customers/customer/{global-customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/{service-instance-id}
   vrf: /cloud-infrastructure/vrfs/vrf/{id}
+  route-dist: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{id}
