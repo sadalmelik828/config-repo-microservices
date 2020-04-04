@@ -3,6 +3,11 @@ aaiUser: ${USER_AAI:AAI}
 aaiPassword: ${PASSWD_AAI:AAI}
 aaiUrlBase: ${URL_BASE_AAI:/aai/v16}
 aaiPaths:
+  bgp: /network/bgps/bgp/{bgp-id}
+  ipaddress: /network/ipranges/iprange/{range-id}/ipaddresses/ipaddress/{ipaddress-id}
+  loopback: /network/loopbacks/loopback/{loopback-id}
+  ospf: /network/ospfs/ospf/{ospf-id}
+  route-dist: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{route-dist-id}
+  route-target: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{route-dist-id}
   service-instance: /business/customers/customer/{global-customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/{service-instance-id}
   vrf: /cloud-infrastructure/vrfs/vrf/{vrf-id}
-  route-dist: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{route-dist-id}
