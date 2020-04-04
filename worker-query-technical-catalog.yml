@@ -1,4 +1,4 @@
 urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
 topic: ${TOPIC:query-tech-catalog}
 urlAdapterOSM: ${URL_ADP_OSM:http://localhost:8088}
-vnfdPackageId: ${VNFD_ID:123456}
+vnfdPackageId: ${VNFD_ID:25b29f64-fc54-4e85-81f5-9f0c21f588a1}

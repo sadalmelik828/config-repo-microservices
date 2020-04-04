@@ -1,0 +1,3 @@
+urlOSMServer: ${URL_OSM_SRV:https://35.226.210.106:9999}
+osmUser: ${OSM_USER:admin}
+osmPassword: ${OSM_PASSWD:admin}
