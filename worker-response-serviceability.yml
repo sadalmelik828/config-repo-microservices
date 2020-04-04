@@ -1,2 +1,10 @@
 urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
 topic: ${TOPIC:send-resp-serviceability}
+urlAdapterInventory: ${URL_ADP_INV:http://localhost:8094}
+customer: CUSTOMER_001
+serviceSubscription: ROUTER
+urlInventoryRouter: "/resourceInventoryManagement/resource/{router-id}?@type=Router"
+urlInventoryNS: "/resourceInventoryManagement/resource/{ns-id}?@type=NetworkService&customer={customer}&service-subscription={service-subscription}"
+urlInventoryVNF: "/resourceInventoryManagement/resource/{vnf-id}?@type=generic-vnf"
+urlInventoryVIM: "/resourceInventoryManagement/resource/{vim-id}?@type=Vim"
+urlInventoryDC: "/resourceInventoryManagement/resource/{dc-id}?@type=Complex"
