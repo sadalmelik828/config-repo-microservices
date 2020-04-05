@@ -8,6 +8,6 @@ aaiPaths:
   loopback: /network/loopbacks/loopback/{loopback-id}
   ospf: /network/ospfs/ospf/{ospf-id}
   route-dist: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{route-dist-id}
-  route-target: /cloud-infrastructure/rdranges/rdrange/{rdrange-id}/route-dists/route-dist/{route-dist-id}
+  route-target: /cloud-infrastructure/rtranges/rtrange/{rtrange-id}/route-targets/route-target/{route-target-id}
   service-instance: /business/customers/customer/{global-customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/{service-instance-id}
   vrf: /cloud-infrastructure/vrfs/vrf/{vrf-id}
