@@ -1,0 +1,2 @@
+urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
+topic: ${TOPIC:analize-resources}
