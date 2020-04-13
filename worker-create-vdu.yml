@@ -1,0 +1,6 @@
+urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
+topic: ${TOPIC:create-vdu}
+urlAdapterInventory: ${URL_ADP_INV:http://localhost:8094}
+prefixName: vdu
+prefixName2: Vs7-VMME-OTT
+urlAaiVdu: "/aai/v16/cloud-infrastructure/vims/vim/{vim-id}/tenant-hosts/tenant-host/{tenant-host-id}/vdus/vdu/"

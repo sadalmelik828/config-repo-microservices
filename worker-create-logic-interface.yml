@@ -1,0 +1,4 @@
+urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
+topic: ${TOPIC:create-logic-interface}
+urlAdapterInventory: ${URL_ADP_INV:http://localhost:8094}
+prefixName: lint

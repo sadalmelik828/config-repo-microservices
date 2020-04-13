@@ -1,0 +1,7 @@
+urlCamunda: ${URL_CAMUNDA:http://localhost:8080/engine-rest}
+topic: ${TOPIC:create-ns}
+urlAdapterInventory: ${URL_ADP_INV:http://localhost:8094}
+customer: CUSTOMER_001
+serviceSubscription: ROUTER
+prefixName: vRouter
+urlAaiNS: "/aai/v16/business/customers/customer/{customer-id}/service-subscriptions/service-subscription/{service-type}/service-instances/service-instance/"
